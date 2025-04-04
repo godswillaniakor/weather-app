@@ -1,5 +1,7 @@
 # 🌤️ Weather Activity Ranking – Frontend
 
+![alt text](image-1.png)
+
 This is the frontend for the **Weather Activity Ranking App**, built with React and TypeScript. It allows users to select a country and city, and view weather-based activity recommendations for the next 7 days based on Open-Meteo forecast data.
 
 ---
