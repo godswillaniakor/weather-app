@@ -120,7 +120,7 @@ export class Hiking extends Activity {
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/weather-app.git
+   git clone git@github.com:godswillaniakor/weather-app.git
    cd weather-app
    ```
 

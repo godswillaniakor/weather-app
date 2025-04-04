@@ -80,7 +80,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/weather-app.git
+   git clone it@github.com:godswillaniakor/weather-app.git
    cd weather-app/frontend
    ```
 
