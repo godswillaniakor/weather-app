@@ -145,8 +145,6 @@ export class Hiking extends Activity {
 
 - The project includes unit tests for all core functionality, including:
   - Activity scoring logic.
-  - API route handlers.
-  - Service and client integrations.
 
 Run the tests with:
 ```bash
@@ -166,8 +164,17 @@ npm test
 ### `.env` File for Configuration
 - **Why it was omitted**: The current implementation uses hardcoded values for simplicity. Using a `.env` file for configuration (e.g., `PORT`, `API_URL`) can be added in the future for better flexibility and security.
 
-### Unit tests
-- Could have added more unit tests but for time constraints
+### Unit Tests
+- **Why it was omitted**: More unit tests could have been added to cover edge cases, but time constraints limited the scope.
+
+### Integration Tests
+- **Why it was omitted**: Integration tests to validate the interaction between controllers, services, and external APIs were not implemented due to time constraints. These can be added in the future to ensure end-to-end reliability.
+
+### Caching
+- **Why it was omitted**: Caching mechanisms (e.g., Redis or in-memory caching) were not implemented to optimize repeated requests for the same weather data. This can be added in the future to improve performance and reduce API calls to external services.
+
+### API Documentation
+- **Why it was omitted**: Comprehensive API documentation (e.g., using Swagger or Postman collections) was not included. This can be added in the future to make the API easier to understand and use for frontend/external developers.
 
 ---
 
@@ -178,8 +185,8 @@ npm test
   - Configuring **Dependency Injection (DI)** with `tsyringe`.
   - Implementing **AsyncLocalStorage** for request-scoped logging.
 - AI assistance accelerated development by providing boilerplate code and architectural suggestions.
-- Used it also to generate the Readme with Co-pilot, and i added some changes to it
-- AI assistance helped me the logic for each activities
+- Used it also to generate the Readme with Co-pilot, and I added some changes to it.
+- AI assistance helped me with the logic for each activity.
 
 ---
 
