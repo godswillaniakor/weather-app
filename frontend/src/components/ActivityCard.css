@@ -1,0 +1,52 @@
+.activity-card {
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 200px;
+  }
+  
+  .activity-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .activity-icon {
+    font-size: 2.5rem;
+  }
+
+  .activity-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .activity-description {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #555;
+  }
+  
+  .activity-score {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .activity-score.suitable {
+    color: #0a0;
+  }
+  
+  .activity-score.not-suitable {
+    color: #888;
+  }
