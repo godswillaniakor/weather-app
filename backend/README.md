@@ -166,6 +166,9 @@ npm test
 ### `.env` File for Configuration
 - **Why it was omitted**: The current implementation uses hardcoded values for simplicity. Using a `.env` file for configuration (e.g., `PORT`, `API_URL`) can be added in the future for better flexibility and security.
 
+### Unit tests
+- Could have added more unit tests but for time constraints
+
 ---
 
 ## 🤖 Leveraging AI in Development
@@ -176,6 +179,7 @@ npm test
   - Implementing **AsyncLocalStorage** for request-scoped logging.
 - AI assistance accelerated development by providing boilerplate code and architectural suggestions.
 - Used it also to generate the Readme with Co-pilot, and i added some changes to it
+- AI assistance helped me the logic for each activities
 
 ---
 

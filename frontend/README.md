@@ -99,14 +99,6 @@ src/
 
 ---
 
-## 🧪 Testing
-
-- The frontend includes unit tests for core components like `CityForm` and `ActivityCard`.
-- Run the tests with:
-   ```bash
-   npm test
-   ```
-
 ---
 
 ## 📜 License
